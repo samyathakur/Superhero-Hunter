@@ -15,7 +15,7 @@ const image = document.querySelector('.image');
 const descDiv = document.querySelector('.characterstic');
 
 // Fetch character details from the Marvel API using the 'id' parameter
-fetch(`http://gateway.marvel.com/v1/public/characters/${id}?ts=1&apikey=70e56b7dd94e89b259cbb7e0625a92ee&hash=8b18d739e6f0be231a4967977ee49053`)
+fetch(`https://gateway.marvel.com/v1/public/characters/${id}?ts=1&apikey=70e56b7dd94e89b259cbb7e0625a92ee&hash=8b18d739e6f0be231a4967977ee49053`)
     .then((response) => {
         return response.json();
     })
