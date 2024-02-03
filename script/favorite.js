@@ -17,7 +17,7 @@ if (favList.length === 0) {
 } else {
     // Iterate through each element in the favorite list and fetch corresponding character details
     favList.forEach(function (element) {
-        fetch(`http://gateway.marvel.com/v1/public/characters/${element}?ts=1&apikey=70e56b7dd94e89b259cbb7e0625a92ee&hash=8b18d739e6f0be231a4967977ee49053`)
+        fetch(`https://gateway.marvel.com/v1/public/characters/${element}?ts=1&apikey=70e56b7dd94e89b259cbb7e0625a92ee&hash=8b18d739e6f0be231a4967977ee49053`)
         .then((response) => {
             return response.json();
         })
