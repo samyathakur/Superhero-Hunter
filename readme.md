@@ -1,4 +1,5 @@
 Project Overview
+
 This project consists of a simple web application that allows users to explore and interact with Marvel characters. 
 The application includes three main pages: 
 
@@ -24,7 +25,6 @@ Page that displays the user's favorite Marvel characters.
 Contains a navigation bar and a display list of favorite characters.
 
 styles/ folder containing stylesheets for different pages: main.css, style.css, character.css, and favorite.css.
-
 
 img/ folder containing image files used in the project, such as logos and background images.
 
