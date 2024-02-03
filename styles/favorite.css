@@ -1,0 +1,60 @@
+.container{
+    padding: 20px;
+}
+.display-list{
+    margin: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    /* border: 1px solid black; */
+    padding: 22px;
+
+}
+
+.card{
+    width: 165px;
+    border-radius: 10px;
+    background-color: #151515;
+}
+
+.img{
+    overflow: hidden;
+}
+
+.img img{
+    width: 100%;
+    border-bottom: 1px solid red;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: transform .5s ease;
+}
+
+.img:hover img {
+    transform: scale(1.1); 
+}
+
+.fav{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    color: white;
+   font-weight: 400;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   padding: 10px 10px 10px 10px;
+
+   height: 77px;
+   overflow: hidden;
+}
+
+.message{
+    border: 1px solid lightgray;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.fa-heart{
+    cursor: pointer;
+}
